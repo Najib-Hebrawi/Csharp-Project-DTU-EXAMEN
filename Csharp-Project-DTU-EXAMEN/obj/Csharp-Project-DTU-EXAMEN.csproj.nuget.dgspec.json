@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Zeinu\\Source\\Repos\\Csharp-Project-DTU-EXAMEN\\Csharp-Project-DTU-EXAMEN\\Csharp-Project-DTU-EXAMEN.csproj": {}
+    "C:\\Users\\Zeinu\\source\\repos\\Csharp-Project-DTU-EXAMEN\\Csharp-Project-DTU-EXAMEN\\Csharp-Project-DTU-EXAMEN.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Zeinu\\Source\\Repos\\Csharp-Project-DTU-EXAMEN\\Csharp-Project-DTU-EXAMEN\\Csharp-Project-DTU-EXAMEN.csproj": {
+    "C:\\Users\\Zeinu\\source\\repos\\Csharp-Project-DTU-EXAMEN\\Csharp-Project-DTU-EXAMEN\\Csharp-Project-DTU-EXAMEN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zeinu\\Source\\Repos\\Csharp-Project-DTU-EXAMEN\\Csharp-Project-DTU-EXAMEN\\Csharp-Project-DTU-EXAMEN.csproj",
+        "projectUniqueName": "C:\\Users\\Zeinu\\source\\repos\\Csharp-Project-DTU-EXAMEN\\Csharp-Project-DTU-EXAMEN\\Csharp-Project-DTU-EXAMEN.csproj",
         "projectName": "Csharp-Project-DTU-EXAMEN",
-        "projectPath": "C:\\Users\\Zeinu\\Source\\Repos\\Csharp-Project-DTU-EXAMEN\\Csharp-Project-DTU-EXAMEN\\Csharp-Project-DTU-EXAMEN.csproj",
+        "projectPath": "C:\\Users\\Zeinu\\source\\repos\\Csharp-Project-DTU-EXAMEN\\Csharp-Project-DTU-EXAMEN\\Csharp-Project-DTU-EXAMEN.csproj",
         "packagesPath": "C:\\Users\\Zeinu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zeinu\\Source\\Repos\\Csharp-Project-DTU-EXAMEN\\Csharp-Project-DTU-EXAMEN\\obj\\",
+        "outputPath": "C:\\Users\\Zeinu\\source\\repos\\Csharp-Project-DTU-EXAMEN\\Csharp-Project-DTU-EXAMEN\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Zeinu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,7 +21,8 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -38,6 +39,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
