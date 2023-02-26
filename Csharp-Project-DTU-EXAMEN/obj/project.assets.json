@@ -8,26 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/Users/najibhebrawi/.nuget/packages/": {}
+    "C:\\Users\\Zeinu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/najibhebrawi/Projects/Csharp-Project-DTU-EXAMEN/Csharp-Project-DTU-EXAMEN/Csharp-Project-DTU-EXAMEN.csproj",
+      "projectUniqueName": "C:\\Users\\Zeinu\\Source\\Repos\\Csharp-Project-DTU-EXAMEN\\Csharp-Project-DTU-EXAMEN\\Csharp-Project-DTU-EXAMEN.csproj",
       "projectName": "Csharp-Project-DTU-EXAMEN",
-      "projectPath": "/Users/najibhebrawi/Projects/Csharp-Project-DTU-EXAMEN/Csharp-Project-DTU-EXAMEN/Csharp-Project-DTU-EXAMEN.csproj",
-      "packagesPath": "/Users/najibhebrawi/.nuget/packages/",
-      "outputPath": "/Users/najibhebrawi/Projects/Csharp-Project-DTU-EXAMEN/Csharp-Project-DTU-EXAMEN/obj/",
+      "projectPath": "C:\\Users\\Zeinu\\Source\\Repos\\Csharp-Project-DTU-EXAMEN\\Csharp-Project-DTU-EXAMEN\\Csharp-Project-DTU-EXAMEN.csproj",
+      "packagesPath": "C:\\Users\\Zeinu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Zeinu\\Source\\Repos\\Csharp-Project-DTU-EXAMEN\\Csharp-Project-DTU-EXAMEN\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/najibhebrawi/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Zeinu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
       },
       "frameworks": {
         "net6.0": {
@@ -63,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.103/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
